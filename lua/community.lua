@@ -14,6 +14,9 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua" },
 
+  -- enable fugitive-style blame for each line lua/astrocommunity/git/blame-nvim
+  { import = "astrocommunity.git.blame-nvim" },
+
   -- example of importing an entire language pack
   -- these packs can set up things such as Treesitter, Language Servers, additional language specific plugins, and more!
   { import = "astrocommunity.pack.lua" },
