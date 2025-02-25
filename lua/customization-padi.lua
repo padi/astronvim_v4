@@ -17,3 +17,9 @@ vim.api.nvim_create_autocmd("VimEnter", {
 -- https://github.com/RishabhRD/nvim-cheat.sh?tab=readme-ov-file#changing-result-layout
 -- possible values: split, vertical_split, tab, float
 vim.g.cheat_default_window_layout = "split"
+
+-- Sets how neovim will display certain whitespace characters in the editor.
+--  See `:help 'list'`
+--  and `:help 'listchars'`
+vim.opt.list = true
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
